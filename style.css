@@ -1,8 +1,6 @@
 :root{
-  --bg:#f7f8fa; --ink:#1b2430; --muted:#5b6673; --rule:#d5dae1; --accent:#1f4e8c; --accent-bg:#eaf0f9;
-}
-@media (prefers-color-scheme:dark){
-  :root:not([data-theme="light"]){--bg:#12161c;--ink:#e6eaf0;--muted:#9aa5b3;--rule:#2b3440;--accent:#7fb0f0;--accent-bg:#1a2433}
+  color-scheme:dark;
+  --bg:#12161c; --ink:#e6eaf0; --muted:#9aa5b3; --rule:#2b3440; --accent:#7fb0f0; --accent-bg:#1a2433;
 }
 *,*::before,*::after{box-sizing:border-box}
 html{font-size:100%}
