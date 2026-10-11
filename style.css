@@ -36,6 +36,8 @@ a.row-link .what strong{color:var(--accent)}
 .meta strong{color:var(--ink);font-weight:600}
 .doc-link{display:inline-flex;align-items:center;gap:.5rem;margin:1rem 0 2rem;padding:.6rem 1.1rem;
   border:1px solid var(--rule);border-radius:.4rem;text-decoration:none;font-size:1rem}
+.docs{display:flex;flex-wrap:wrap;gap:.75rem;margin:1rem 0 2rem}
+.docs .doc-link{margin:0}
 .doc-link:hover{border-color:var(--accent);background:var(--accent-bg)}
 .toc{margin:0 0 1rem;padding-left:1.25rem}
 .toc li{margin-bottom:.35rem}
