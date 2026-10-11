@@ -1,8 +1,6 @@
 :root{
-  --bg:#f7f8fa; --ink:#1b2430; --muted:#5b6673; --rule:#d5dae1; --accent:#1f4e8c; --accent-bg:#eaf0f9;
-}
-@media (prefers-color-scheme:dark){
-  :root:not([data-theme="light"]){--bg:#12161c;--ink:#e6eaf0;--muted:#9aa5b3;--rule:#2b3440;--accent:#7fb0f0;--accent-bg:#1a2433}
+  color-scheme:dark;
+  --bg:#12161c; --ink:#e6eaf0; --muted:#9aa5b3; --rule:#2b3440; --accent:#7fb0f0; --accent-bg:#1a2433;
 }
 *,*::before,*::after{box-sizing:border-box}
 html{font-size:100%}
@@ -42,3 +40,9 @@ a.row-link .what strong{color:var(--accent)}
 .toc{margin:0 0 1rem;padding-left:1.25rem}
 .toc li{margin-bottom:.35rem}
 .keywords{color:var(--muted);font-size:.95rem}
+
+/* cabeçalho com foto */
+.intro{display:flex;align-items:flex-start;gap:1.75rem;margin-bottom:3rem}
+.intro .links{margin-bottom:0}
+.photo{flex:none;width:7.5rem;height:10rem;object-fit:cover;border-radius:.4rem;border:1px solid var(--rule)}
+@media (max-width:36rem){.intro{flex-direction:column;gap:1.25rem}}
